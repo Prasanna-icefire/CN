@@ -5,8 +5,8 @@ BEGIN{
 {
 	if($1=="d"&& $5=="tcp")
 	       tcp_count++;
-	if($1=="d"&&$5=="cdr")
-	       udp_count++
+	if($1=="d"&&$5=="cbr")
+	       udp_count++;
 
 }
 END{
